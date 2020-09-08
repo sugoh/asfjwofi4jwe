@@ -6,5 +6,82 @@
     <link rel="stylesheet" href="css/bootstrap.min.css" />
     <link rel="stylesheet" href="css/styles.css" />
   </head>
-  <body></body>
+  <body>
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+    <nav class="navbar navbar-default">
+      <section class="container-fluid">
+        <section class="navbar-header">
+          <a class="navbar-brand" href="#">Food, LLC</a>
+        </section>
+        <button
+          type="button"
+          class="navbar-toggle collapsed"
+          data-toggle="collapse"
+          data-target="#our-collapsing-navbar"
+          aria-expanded="false"
+        >
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+      </section>
+      <section class="collapse navbar-collapse" id="our-collapsing-navbar">
+        <ul class="nav navbar-nav">
+          <li class="active">
+            <a href="#chicken-card">Chicken</a>
+            <a href="#beef-card">Beef</a>
+            <a href="#sushi-card">Sushi</a>
+          </li>
+        </ul>
+      </section>
+    </nav>
+    <section>
+      <h1 class="text-center">Our Menu</h1>
+    </section>
+    <section>
+      <section class="container">
+        <section class="row">
+          <card id="chicken-card" class="col-xs-12 col-sm-6 col-md-4">
+            <h2 class="text-center card-header">Chicken</h2>
+            <p class="card-body">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+              reprehenderit in voluptate velit esse cillum dolore eu fugiat
+              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+              sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+          </card>
+          <card id="beef-card" class="col-xs-12 col-sm-6 col-md-4">
+            <h2 class="text-center card-header">Beef</h2>
+            <p class="card-body">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+              reprehenderit in voluptate velit esse cillum dolore eu fugiat
+              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+              sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+          </card>
+          <card id="sushi-card" class="col-xs-12 col-sm-12 col-md-4">
+            <h2 class="text-center card-header">Sushi</h2>
+            <p class="card-body">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+              reprehenderit in voluptate velit esse cillum dolore eu fugiat
+              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+              sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+          </card>
+        </section>
+      </section>
+    </section>
+  </body>
 </html>
