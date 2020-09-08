@@ -1,0 +1,53 @@
+.navbar {
+  padding: 0.5rem 0 0 0;
+  transition: background 0.4s ease-in-out;
+}
+
+.fixed-top {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+}
+
+.is-hidden {
+  opacity: 0;
+  transition: transform 0.4s, opacity 0.2s;
+}
+
+.navbar-toggler-icon {
+  color: #000;
+  width: 1rem;
+}
+
+.navbar-nav {
+  border: 2px solid black;
+}
+
+.navbar-nav li {
+  border-bottom: 2px solid black;
+}
+
+.antique-white {
+  background-color: antiquewhite;
+}
+
+.light-grey {
+  background-color: #ececec;
+}
+
+.really-tall {
+  height: 1000px;
+  padding-top: 1rem;
+}
+
+card {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+.card-header {
+  border: none;
+}

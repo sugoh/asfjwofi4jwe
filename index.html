@@ -10,29 +10,32 @@
     <script src="js/jquery-3.5.1.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/script.js"></script>
-    <nav class="navbar navbar-default">
+    <nav class="navbar navbar-light light-grey fixed-top" role="navigation">
       <section class="container-fluid">
         <section class="navbar-header">
           <a class="navbar-brand" href="#">Food, LLC</a>
         </section>
         <button
           type="button"
-          class="navbar-toggle collapsed"
+          class="navbar-toggle collapsed d-block d-sm-none"
           data-toggle="collapse"
           data-target="#our-collapsing-navbar"
-          aria-expanded="false"
         >
-          <span class="sr-only">Toggle navigation</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
+          <span class="navbar-toggler-icon"></span>
         </button>
       </section>
-      <section class="collapse navbar-collapse" id="our-collapsing-navbar">
+      <section
+        class="collapse navbar-collapse antique-white"
+        id="our-collapsing-navbar"
+      >
         <ul class="nav navbar-nav">
-          <li class="active">
+          <li class="text-center">
             <a href="#chicken-card">Chicken</a>
+          </li>
+          <li class="text-center">
             <a href="#beef-card">Beef</a>
+          </li>
+          <li class="text-center">
             <a href="#sushi-card">Sushi</a>
           </li>
         </ul>
@@ -41,12 +44,12 @@
     <section>
       <h1 class="text-center">Our Menu</h1>
     </section>
-    <section>
+    <section class="really-tall">
       <section class="container">
         <section class="row">
           <card id="chicken-card" class="col-xs-12 col-sm-6 col-md-4">
-            <h2 class="text-center card-header">Chicken</h2>
-            <p class="card-body">
+            <h2 class="text-center card-header light-grey">Chicken</h2>
+            <p class="card-body light-grey">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
               enim ad minim veniam, quis nostrud exercitation ullamco laboris
@@ -57,8 +60,8 @@
             </p>
           </card>
           <card id="beef-card" class="col-xs-12 col-sm-6 col-md-4">
-            <h2 class="text-center card-header">Beef</h2>
-            <p class="card-body">
+            <h2 class="text-center card-header light-grey">Beef</h2>
+            <p class="card-body light-grey">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
               enim ad minim veniam, quis nostrud exercitation ullamco laboris
@@ -69,8 +72,8 @@
             </p>
           </card>
           <card id="sushi-card" class="col-xs-12 col-sm-12 col-md-4">
-            <h2 class="text-center card-header">Sushi</h2>
-            <p class="card-body">
+            <h2 class="text-center card-header light-grey">Sushi</h2>
+            <p class="card-body light-grey">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
               enim ad minim veniam, quis nostrud exercitation ullamco laboris
