@@ -18,13 +18,10 @@ $(document).ready(function () {
   });
 
   function hideNav() {
-    $(".navbar").removeClass("is-visible").addClass("is-hidden");
+    $(".navbar").addClass("is-hidden");
   }
 
   function showNav() {
-    $(".navbar")
-      .removeClass("is-hidden")
-      .addClass("is-visible")
-      .addClass("scrolling");
+    $(".navbar").removeClass("is-hidden");
   }
 });
